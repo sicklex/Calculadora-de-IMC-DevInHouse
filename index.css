@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container-peso {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.resultado {
+  margin-left: 30%;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 80px;
+  font-size: 3rem;
+}
+
+input[type="number"] {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button:hover {
+  box-shadow: 10px 10px 20px 5px black;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  color: darkgreen;
+}
